@@ -1,0 +1,134 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('indian-flag.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    color: #333;
+    min-height: 100vh; 
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px; 
+    border-radius: 10px;
+    background-color: rgba(238, 238, 238, 0.5); 
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 0;
+    font-weight: 400;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.admiration, .intro, .qualities {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+}
+
+.images {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 250px;
+    height: auto;
+    margin: 15px;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.images img:hover {
+    transform: scale(1.1);
+    border: 3px solid #e31111;
+}
+
+h3 {
+    color: #000000;
+    text-align: center;
+    font-size:2.3em;
+    font-family: 'Arial', sans-serif; 
+    text-decoration: underline;
+    
+}
+.highlight {
+    background-color: rgba(248, 253, 185, 0.7); 
+    padding: 2px 5px; 
+    border-radius: 10px; 
+    
+}
+.intro{
+    font-weight: bold;
+    font-size: 17px;
+text-decoration: underline;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 7px 10px;
+    background-color: #bbbcb8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+}
+
+.learn-more:hover {
+    background-color: #c9302c;
+    transform: scale(1.1);
+    
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #000000;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
